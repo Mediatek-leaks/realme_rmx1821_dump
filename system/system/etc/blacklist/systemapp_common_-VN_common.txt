@@ -1,0 +1,4 @@
+com.heytap.browser
+com.heytap.market
+com.nearme.gamecenter
+com.heytap.cloud
