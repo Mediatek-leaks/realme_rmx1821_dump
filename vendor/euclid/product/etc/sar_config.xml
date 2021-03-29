@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+        bit 6 | bit 5  | bit 4  | bit 3  | bit 2 | bit 1 | bit 0
+        wifi5 | wifi2.4| headset| charger| otg   | usb   | sensor
+-->
+<Root>
+    <Product name="RA001:RA079">
+        <AllRegions name="CE:IN">CE</AllRegions>
+        <Region name="CE:IN">
+            <Scenarios>00110001</Scenarios>
+            <Scene mask="0110001">
+                <Sce index="0"  comment="sensor far">100</Sce>
+                <Sce index="1"  comment="sensor near">101</Sce>
+                <Sce index="16"  comment="headset + far">200</Sce>
+                <Sce index="17"  comment="headset + near">201</Sce>
+                <Sce index="32" comment="wifi 2.4 + far">100</Sce>
+                <Sce index="33" comment="wifi 2.4 + near">101</Sce>
+                <Sce index="48"  comment="wifi 2.4 + headset + far">200</Sce>
+                <Sce index="49"  comment="wifi 2.4 + headset + near">201</Sce>
+            </Scene>
+            <Data>
+                <Id index="0">
+                    <All type="sar" band="">0</All>
+                </Id>
+                <Id index="100">
+                    <Gsm type="sar" band="3,4" comment="1800,1900">0,2,0,2</Gsm>
+                    <Wcdma type="sar" band="1">0,3</Wcdma>
+                </Id>
+                <Id index="101">
+                    <Gsm type="sar" band="3,4" comment="1800,1900">0,5,0,5</Gsm>
+                    <Wcdma type="sar" band="1">0,7</Wcdma>
+                    <Lte type="sar" band="1">0,7</Lte>
+                    <Lte type="sar" band="3">0,5</Lte>
+                    <Lte type="sar" band="38">0,4</Lte>
+                    <Lte type="sar" band="40">0,4</Lte>
+                    <Lte type="sar" band="41">0,5.5</Lte>
+                </Id>
+                <Id index="200">
+                    <Gsm type="sar" band="1,2,3,4" comment="850,900,1800,1900">1,1,1.5,1.5,1,2,2,2</Gsm>
+                    <Wcdma type="sar" band="1">0,3</Wcdma>
+                </Id>
+                <Id index="201">
+                    <Gsm type="sar" band="1,2,3,4" comment="850,900,1800,1900">1,1,1.5,1.5,1,5,2,5</Gsm>
+                    <Wcdma type="sar" band="1">0,7</Wcdma>
+                    <Lte type="sar" band="1">0,7</Lte>
+                    <Lte type="sar" band="3">0,5</Lte>
+                    <Lte type="sar" band="38">0,4</Lte>
+                    <Lte type="sar" band="40">0,4</Lte>
+                    <Lte type="sar" band="41">0,5.5</Lte>
+                </Id>
+            </Data>
+        </Region>
+    </Product>
+    <Product name="RA003:RA017:RA082:RA083">
+        <AllRegions name="CE">CE</AllRegions>
+        <Region name="CE">
+            <Scenarios>00110001</Scenarios>
+            <Scene mask="0110001">
+                <Sce index="0"  comment="sensor far">100</Sce>
+                <Sce index="1"  comment="sensor near">101</Sce>
+                <Sce index="16"  comment="headset + far">200</Sce>
+                <Sce index="17"  comment="headset + near">201</Sce>
+                <Sce index="32" comment="wifi 2.4 + far">100</Sce>
+                <Sce index="33" comment="wifi 2.4 + near">101</Sce>
+                <Sce index="48"  comment="wifi 2.4 + headset + far">200</Sce>
+                <Sce index="49"  comment="wifi 2.4 + headset + near">201</Sce>
+            </Scene>
+            <Data>
+                <Id index="0">
+                    <All type="sar" band="">0</All>
+                </Id>
+                <Id index="100">
+                    <Gsm type="sar" band="3,4" comment="1800,1900">0,2,0,3</Gsm>
+                    <Wcdma type="sar" band="1">0,3.5</Wcdma>
+                    <Lte type="sar" band="1">0,3</Lte>
+                    <Lte type="sar" band="3">0,3</Lte>
+                    <Lte type="sar" band="7">0,3</Lte>
+                </Id>
+                <Id index="101">
+                    <Gsm type="sar" band="3,4" comment="1800,1900">0,2,0,3.5</Gsm>
+                    <Wcdma type="sar" band="1">0,6</Wcdma>
+                    <Lte type="sar" band="1">0,3.5</Lte>
+                    <Lte type="sar" band="3">0,3</Lte>
+                    <Lte type="sar" band="7">0,4.5</Lte>
+                </Id>
+                <Id index="200">
+                    <Gsm type="sar" band="1,2,3,4" comment="850,900,1800,1900">1,1,1.5,1.5,1,2,2,3</Gsm>
+                    <Wcdma type="sar" band="1">0,3</Wcdma>
+                </Id>
+                <Id index="201">
+                    <Gsm type="sar" band="1,2,3,4" comment="850,900,1800,1900">1,1,1.5,1.5,1,2,2,3.5</Gsm>
+                    <Wcdma type="sar" band="1">0,7</Wcdma>
+                    <Lte type="sar" band="1">0,7</Lte>
+                    <Lte type="sar" band="3">0,5</Lte>
+                    <Lte type="sar" band="38">0,4</Lte>
+                    <Lte type="sar" band="40">0,4</Lte>
+                    <Lte type="sar" band="41">0,5.5</Lte>
+                </Id>
+            </Data>
+        </Region>
+    </Product>
+</Root>

@@ -1,0 +1,19 @@
+
+<permissions>
+    <feature name="oppo.feature.18601" />
+    <feature name="oppo.eyeprotect.support" />
+    <feature name="oppo.autolight.userotate.support" />
+    <feature name="oppo.appautoresolution.support" />
+    <feature name="oppo.multibits.dimming.support" />
+    <feature name="oppo.autobrightctl.animation.support" />
+    <!-- Zeke.Shi@RM.MM.Display.Feature,null,2019/11/13,add for rounder corner feature -->
+    <feature name="oppo.roundcorner.support" />
+    <feature name="com.oppo.feature.screen.heteromorphism" />
+    <!-- Zeke.Shi@RM.MM.Display.Feature, 2019/11/18, Add for cabc dynamic level support -->
+    <feature name="cabc.level.dynamic.enable" />
+    <!--<feature name="oppo.aod.support" />-->
+    <!--<feature name="oppo.display.screen.underlightsensor.support" />-->
+    <!--<feature name="oppo.display.dcbacklight.support" />-->
+    <!--<feature name="oppo.high.brightness.support" />-->
+    <!--<feature name="oppo.hardware.fingerprint.optical.support" />-->
+</permissions>

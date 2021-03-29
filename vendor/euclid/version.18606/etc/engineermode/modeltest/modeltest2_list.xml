@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ModelTestList>
+    <ModelItem id="Vibrator test" name="VibratorTest">
+        <intent>com.oppo.engineermode.manualtest.modeltest.ModelVibratorTest</intent>
+    </ModelItem>
+
+    <ModelItem id="Small Board Check" name="SmallBoardCheck">
+        <intent>com.oppo.engineermode.manualtest.modeltest.ModelSmallBoardCheck</intent>
+    </ModelItem>
+
+    <ModelItem id="Wifi test" name="WifiTest">
+        <intent>com.oppo.engineermode.wifitest.ModelWifiConnectTest</intent>
+    </ModelItem>
+
+    <ModelItem id="BtSearch test" name="BluetoothTest">
+        <intent>com.oppo.engineermode.manualtest.modeltest.ModelBTSearch</intent>
+    </ModelItem>
+
+    <ModelItem id="SimDetect test" name="SimDetectTest">
+        <intent>com.oppo.engineermode.manualtest.SimDetectation</intent>
+    </ModelItem>
+
+    <ModelItem id="OTG Test" name="OtgTest">
+        <intent>com.oppo.engineermode.storage.OtgTest</intent>
+    </ModelItem>
+</ModelTestList>

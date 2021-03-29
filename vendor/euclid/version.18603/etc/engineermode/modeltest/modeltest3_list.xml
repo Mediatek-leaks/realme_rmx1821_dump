@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ModelTestList>
+    <ModelItem id="TouchScreen test" name="TouchPanelAutoTest">
+        <intent>com.oppo.engineermode.manualtest.TouchPanelAutoTest</intent>
+    </ModelItem>
+
+    <ModelItem id="LightSensor" name="LightSensorTest">
+        <intent>com.oppo.engineermode.manualtest.modeltest.ModelLightSensor</intent>
+    </ModelItem>
+
+    <ModelItem id="Gensor test" name="GravitySensorTest">
+        <intent>com.oppo.engineermode.manualtest.modeltest.ModelGsensorTest</intent>
+    </ModelItem>
+
+    <ModelItem name="StepCounterTest" />
+
+    <ModelItem id="MSensorAuto Test" name="MagneticSensorTest">
+        <intent>com.oppo.engineermode.manualtest.modeltest.ModelMSensorAutoTest</intent>
+    </ModelItem>
+
+    <ModelItem id="Proximity Sensor" name="ProximitySensorTest">
+        <intent>com.oppo.engineermode.sensor.sensortest.ProximitySensorTest</intent>
+    </ModelItem>
+
+    <ModelItem id="GyroscopeGraph" name="GyroscopeSensorTest">
+        <intent>com.oppo.engineermode.gyroscopetest.GyroscopeGraph</intent>
+    </ModelItem>
+
+    <ModelItem id="Keypad test" name="KeyTest">
+        <intent>com.oppo.engineermode.autotest.KeypadTest</intent>
+    </ModelItem>
+
+    <ModelItem id="Hall Test" name="HallTest">
+        <intent>com.oppo.engineermode.manualtest.HallEffectSensor</intent>
+    </ModelItem>
+</ModelTestList>

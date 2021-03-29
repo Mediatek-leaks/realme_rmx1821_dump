@@ -1,0 +1,5 @@
+<!-- This file is auto-generated.  DO NOT MODIFY. -->
+<!-- COLOR_EDIT.  add oppo.screen.hovering.support ;remove oppo.narrow.frame -->
+<permissions>
+    <feature name="oppo.foreign.area" />
+</permissions>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<features>
+    <!-- BSP feature -->
+    <feature name="com.oppo.eng.otg.support" />
+    <feature name="com.oppo.eng.sdcard.support" />
+    <feature name="com.oppo.eng.fingerprint.support" />
+    <!--feature name="com.oppo.eng.fast.charger.support" /-->
+    <feature name="com.oppo.eng.smallboard.detect.support" />
+    <feature name="com.oppo.eng.a.smallboard.detect.support" />
+    <feature name="com.oppo.eng.virtual.gyroscope.sensor.support" />
+    <feature name="com.oppo.eng.magnetic.sensor.support" />
+    <feature name="com.oppo.eng.gravity.sensor.calibrate.support" />
+    <feature name="com.oppo.eng.proximity.sensor.calibrate.support" />
+    <feature name="com.oppo.eng.light.sensor.calibrate.support" />
+    <feature name="com.oppo.eng.sensor.selftest.support" />
+    <feature name="com.oppo.eng.stepcounter.sensor.support" />
+    <!--feature name="com.oppo.eng.ship.mode.support" /-->
+    <feature name="com.oppo.eng.proximity.distance.calibration.support" />
+
+    <!-- Network feature -->
+    <feature name="com.oppo.eng.gemini.support" />
+    <feature name="com.oppo.eng.sim.hot.swap.support" />
+    <feature name="com.oppo.eng.sar.body" value="0.456" />
+    <feature name="com.oppo.eng.sar.head" value="1.177" />
+    <!-- Multimedia feature -->
+    <!--<feature name="com.oppo.eng.smart.pa.calibrate.support" />-->
+
+    <!-- Connectivity feature -->
+
+    <!-- Camera feature -->
+    <feature name="com.oppo.eng.flash.light.calibrate.support" />
+    <feature name="com.oppo.eng.flash.light.support" />
+    <feature name="com.oppo.eng.second.back.camera.support" />
+    <feature name="com.oppo.eng.camera.calibrate.support" />
+    <!-- Android feature -->
+    <feature name="com.oppo.eng.navigation.bar.support" />
+    <feature name="com.oppo.eng.standlone.userdata.support" />
+    <feature name="com.oppo.eng.mtk.atm.mode.support" />
+    <feature name="com.oppo.eng.mtk.platform" />
+    <feature name="com.oppo.eng.exp.platform" />
+
+    <!-- Camera parameters -->
+    <feature name="com.oppo.eng.camera.calibrate.project.name" value="E"/>
+    <feature name="com.oppo.eng.camera.calibration.params.name" value="CalibrationOppoE_MTK6771.json"/>
+    <feature name="com.oppo.eng.camera.verification.params.name" value="VerificationOppoE_MTK6771.json"/>
+    <feature name="com.oppo.eng.camera.calibration.rear.size" value="4656x3496"/>
+    <feature name="com.oppo.eng.camera.calibrate.second.rear.size" value="2592x1944"/>
+    <feature name="com.oppo.eng.camera.calibration.yshift" value="9.35"/>
+
+    <!-- dualcam calibration parameters -->
+    <feature name="com.oppo.eng.camera.calibration.algo" value="westalgo"/>
+
+    <!-- camera capture image rotate -->
+    <feature name="com.oppo.eng.camera.capture.image.no.need.rotate" />
+
+</features>
